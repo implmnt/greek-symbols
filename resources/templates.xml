@@ -1,0 +1,17 @@
+<templateSet group="Greek">
+  <template name="ll" value="λ" description="Greek lambda" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="aa" value="α" description="Greek alpha" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="bb" value="β" description="Greek beta" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
