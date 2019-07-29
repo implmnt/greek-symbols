@@ -1,17 +1,17 @@
 <idea-plugin>
   <id>im.plmnt.plugin.greek</id>
   <name>Greek symbols</name>
-  <version>1.0</version>
-  <vendor email="georgy.davityan@gmail.com" url="https://github.com/implmnt/greek-symbols">plmnt.im</vendor>
+  <version>2.0</version>
+  <vendor email="georgy.davityan@gmail.com" url="http://plmnt.im/">Georgy Davityan</vendor>
 
   <description><![CDATA[
       Live Templates for Greek symbols<br>
-      Show details in Preferences -> Editor -> Live Templates -> Greek.
+      View details in Preferences -> Editor -> Live Templates -> Greek.
     ]]></description>
 
   <change-notes><![CDATA[
-      <strong>v1.0.0</strong><br>
-      <li>Live Templates for Greek symbols.</li>
+      <strong>v2.0.0</strong><br>
+      <li>More symbols.</li>
     ]]>
   </change-notes>
 
