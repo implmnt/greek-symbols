@@ -1,35 +1,27 @@
 <idea-plugin>
-  <id>im.plmnt.plugin.greek</id>
-  <name>Greek symbols</name>
-  <version>2.0</version>
-  <vendor email="georgy.davityan@gmail.com" url="http://plmnt.im/">Georgy Davityan</vendor>
+    <id>im.plmnt.plugin.greek</id>
+    <name>Greek Symbols</name>
+    <version>3.0</version>
+    <vendor email="georgy.davityan@gmail.com" url="http://plmnt.im/">Georgy Davityan</vendor>
 
-  <description><![CDATA[
-      Live Templates for Greek symbols<br>
+    <description><![CDATA[
+      Live Templates for Greek Symbols<br>
       View details in Preferences -> Editor -> Live Templates -> Greek.
     ]]></description>
 
-  <change-notes><![CDATA[
-      <strong>v2.0.0</strong><br>
-      <li>More symbols.</li>
+    <change-notes><![CDATA[
+      <strong>v3.0.0</strong><br>
+      <li>Support all Intellij Products.</li>
     ]]>
-  </change-notes>
+    </change-notes>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
-  <idea-version since-build="173.0"/>
+    <idea-version since-build="203.0"/>
 
-  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
-       on how to target different products -->
-  <!-- uncomment to enable plugin in all products
-  <depends>com.intellij.modules.lang</depends>
-  -->
+    <depends>com.intellij.modules.lang</depends>
 
-  <extensions defaultExtensionNs="com.intellij">
-    <defaultLiveTemplatesProvider implementation="im.plmnt.plugin.greek.GreekTemplates"/>
-  </extensions>
-
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
+    <extensions defaultExtensionNs="com.intellij">
+        <defaultLiveTemplates file="/templates.xml"/>
+        <liveTemplateContext implementation="im.plmnt.plugin.greek.GreekContext"/>
+    </extensions>
 
 </idea-plugin>
